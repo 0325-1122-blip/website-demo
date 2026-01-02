@@ -1,0 +1,71 @@
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #0a2a66; /* dark blue background */
+    color: white;
+    text-align: center;
+}
+
+/* INTRO SECTION (LIGHT BLUE SA LOOB) */
+.intro {
+    background-color: #7ec8ff; /* LIGHT BLUE */
+    margin: 40px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    color: #002244; /* darker text para readable */
+}
+
+/* HELLO */
+.hello {
+    font-size: 300px;
+    margin: 0;
+    line-height: 1;
+    color: #ffffff;
+}
+
+/* INTRO TEXT */
+.intro-text {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* IMAGE SECTION */
+.image-section {
+    margin-top: 40px;
+}
+
+.image-section img {
+    width: 280px;
+    border-radius: 12px;
+    border: 5px solid #ffffff;
+}
+
+/* NAME */
+.name {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* BELOW TEXT */
+.below-text {
+    font-size: 18px;
+}
+
+/* DIVIDER – NASA PINAKADULO */
+.divider {
+    display: flex;
+    flex-direction: column; /* dalawang hanay */
+    align-items: center;
+    gap: 12px;
+    margin: 80px 0 30px; /* dulo ng page */
+}
+
+.divider span {
+    width: 350px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
